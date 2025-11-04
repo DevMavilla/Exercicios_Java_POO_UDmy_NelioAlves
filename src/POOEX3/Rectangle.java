@@ -16,9 +16,10 @@ public class Rectangle {
         return Math.sqrt(width * width + height * height);
     }
 
-    public String toString(){
-        return String.format("Area = %.2f%n",calcArea())
-             + String.format("Perimetro = %.2f%n",calcPerimeter())
-             + String.format("Diagonal = %.2f%n",calcDiagonal());
+    public String toString() {
+        return String.format("Area = %.2f%n", calcArea())
+                + String.format("Perimetro = %.2f%n", calcPerimeter())
+                + String.format("Diagonal = %.2f%n", calcDiagonal());
     }
 }
+
