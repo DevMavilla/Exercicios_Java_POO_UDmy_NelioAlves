@@ -11,7 +11,7 @@ public class Program13 {
         int n, qtdhomens, qtdmulheres;
         double menoraltura, maioraltura, alturafemMedia, alturafemtotal;
 
-        System.out.print("Quantas pessoas serao digitadas? ");
+        System.out.print("Quantas pessoas serão digitadas? ");
         n = sc.nextInt();
 
         double[] alturas = new double[n];
@@ -40,7 +40,7 @@ public class Program13 {
         qtdmulheres = 0;
         alturafemtotal = 0;
         for (int i=0; i<n; i++) {
-            if (generos[i]=='M') {
+            if (generos[i]=='M' || generos[i]=='m') {
                 qtdhomens++;
             }
             else {
