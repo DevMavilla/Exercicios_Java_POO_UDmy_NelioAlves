@@ -42,6 +42,9 @@ public class Pensionato {
             }
         }
 
+        System.out.println("Hello" +
+                "");
+
 
 
 
