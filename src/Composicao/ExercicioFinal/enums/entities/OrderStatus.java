@@ -1,8 +1,0 @@
-package Composicao.ExercicioFinal.enums.entities;
-
-public enum OrderStatus {
-    PENDING_PAYMENT,
-    PROCESSING,
-    SHIPPED,
-    DELIVERED;
-}
