@@ -1,14 +1,14 @@
 package Java.Heranca.apresentacao.entities;
 
 public class Account {
-    private String number;
+    private int number;
     private String holder;
     protected Double balance;
 
     public Account(){
     }
 
-    public Account(String number, String holder, Double balance) {
+    public Account(int number, String holder, Double balance) {
         this.number = number;
         this.holder = holder;
         this.balance = balance;
@@ -22,11 +22,11 @@ public class Account {
         this.holder = holder;
     }
 
-    public String getNumber() {
+    public int getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 
