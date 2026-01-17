@@ -1,6 +1,6 @@
 package Heranca;
 
-public class Program {
+public class base {
     public static void main(String[] args) {
 
     }
